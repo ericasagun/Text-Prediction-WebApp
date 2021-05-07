@@ -1,0 +1,79 @@
+html body {
+    background-color: #2978b5;
+}
+
+.home-title {
+    color: #fbe0c4;
+    margin-top: 130px;
+    font-size:xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.twitter-card {
+    margin-top: 60px;
+    margin-left: 33%;
+    height: auto;
+}
+
+.twitter-dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#twitter-field {
+    border: none;
+    resize: none;
+    padding-left: 0;
+    font-size: larger;
+    background-color: white;
+    overflow: auto;
+}
+
+#bar-chart {
+    transform: rotate(90deg);
+}
+
+#reset-button {
+    float: right;
+    border-radius: 40px;
+    width: 90px;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+/* #text-area {
+    margin-left: 70px;
+    width: 90%;
+} */
+
+svg {
+    margin-left: 3px;
+}
+
+.wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+.btn.btn-suggestions {
+    background-color: #fbe0c4;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.col-buttons.center {
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    font-size: small;
+    color: #fbe0c4;
+}

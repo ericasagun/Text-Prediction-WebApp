@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+{% load bootstrap_icons %}
+
+{% block page_content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 my-auto">
+            <div class='home-title'>
+                <p class="text-center"><strong>Erica Tweets<strong></p>
+            </div>
+            <!-- <form method="POST">
+                {% csrf_token %} -->
+                <!-- {{form.as_p}} -->
+            <!-- </form> -->
+            <form method="POST" action='/'>
+                <input class="form-control form-control-lg" type="text" id="textInput" name="inputField" maxlength="280" placeholder="Enter text">
+
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-buttons center" style="position: fixed;">
+            <button type="button" class="btn btn-suggestions" {{visibility}}>{{ top1 }}</button>
+            <button type="button" class="btn btn-suggestions" {{visibility}}>{{ top2 }}</button>
+            <button type="button" class="btn btn-suggestions" {{visibility}}>{{ top3 }}</button>
+        </div>
+    </div>
+   
+</div>
+
+{% endblock %}
+
